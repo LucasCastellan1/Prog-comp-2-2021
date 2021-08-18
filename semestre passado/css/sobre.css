@@ -1,0 +1,10 @@
+#caixa {
+    background-color: white; /* cor de fundo */
+    width: 300px; /* largura da caixa */
+    border: 7px solid black; /* borda da caixa com espessura de 15 pixels */
+    padding: 50px; /* espaçamento interno da caixa de 50px na esquerda, direita, abaixo e acima */
+    margin: 50px auto; /* espaçamento externo da caixa */
+    font-family: fantasy;
+    font-size: large;
+    color: red;
+ }

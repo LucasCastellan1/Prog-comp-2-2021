@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+    <head>
+        <link rel="shortcut icon" href="Iconleak-Cerulean-Science-chemistry.ico" type="image/x-icon">  
+        <title> Hmenon </title>
+        <meta charset="utf-8"/> <!-- sistema de codificação aceita ç á à ã -->
+        <!-- meta é auto-explicação falar de si mesmo--> 
+        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/galeria.css">
+    </head>
+    <body>
+        <nav id="menu"> <!-- menu de navegação -->
+            <ul> <!-- lista não ordenada-->
+              <li> <a href="home.html"> Home </a> </li>
+              <li> <a href="imc.html"> Calculadora do IMC </a> </li>
+              <li> <a href="viagem.html"> Custo de viagem </a> </li>
+              <li> <a href="sobre.html"> Sobre </a> </li>
+              <li> <a href="galeria.html"> Galeria de imagens </a> </li>
+              <li> <a href="videos.html"> Vídeos do YouTube </a></li>
+              <li> <a href="tabela.html"> Tabela nutricional </a> </li>
+              <li>
+                <div class="menu-suspenso"> 
+                    Calculadora do IMC  
+                    <div class="conteudo-menu-suspenso">
+                        <a href="imc-homem.html"> Homem </a>
+                        <a href="imc-mulher.html"> Mulher </a>
+                    </div>
+                  </div>
+            </li>
+            </ul>
+        </nav>
+        <!-- o atributo class permite assosiarmos a mais de um elemento (reutilização)-->
+        <!-- o atributo id permite assosiarmos a apenas um elemento-->
+        <div id="conteudo">
+        <div class="galeria">
+            <!-- local e o nome da imagem -->
+            <!-- width é a largura da imagem em pixel -->
+            <!-- heigth é a altura da imagem em pixel -->
+            <!-- o </a> faz a imagem virar um link -->
+            <a target="_blank" href="./img/corrida.jpg">
+                <img src="./img/corrida.jpg" width="600" height="400"/>
+            </a>
+            <div class="descricao"> Corrida para melhorar a cardiorespiração</div>
+        </div>
+        <div class="galeria">
+            <a target="_blank" href="./img/dieta.jpg">
+                <img src="./img/dieta.jpg" width="600" height="400"/>
+            </a>
+            <div class="descricao"> Dieta para diminuir o colesterol </div>
+        </div>
+        <div class="galeria">
+            <a target="_blank" href="./img/lazer.jpg">
+                <img src="./img/lazer.jpg" width="600" height="400"/>
+            </a>
+            <div class="descricao"> Lazer para melhorar aspectos mentais </div>
+        </div>
+        <div class="galeria">
+            <a target="_blank" href="./img/natacao.png">
+                <img src="img/natacao.png" width="600" height="400"/>
+            </a>
+            <div class="descricao"> Natação para sincronização e respiração </div>
+        </div>
+        </div>
+    </body>
+</html>

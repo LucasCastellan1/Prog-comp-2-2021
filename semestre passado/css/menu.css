@@ -1,0 +1,39 @@
+           /* CSS */
+            /* regra se aplica apenas ao elemnto ul dentro do menu */
+            #menu ul { 
+                padding: 10px; /*espaçamento interno de 0px da lista */
+                width: 1200px;
+                margin: 10px; /* espaçamento externo de 0px da lista */
+                background-color: black; /* cor de fundo da lista */
+                list-style: none; /* lista não terá bolinhas - os itens */
+            }
+            #menu ul li {
+                display: inline; /* itens da lista ficarão em uma unica linha */
+                padding: 22px; /* espaçamento interno entre os itens */
+            }
+            /* a regra se aplica ao link dos itens da lista do menu */
+            #menu ul li a {
+                background-color: none; /*cor do fundo */
+                color: white; /* cor do texto */
+                text-decoration: none;
+                border-bottom: 3px solid #EDEDED;
+            }
+            .menu-suspenso {
+                position: relative; /* conteúdo atual acompanha o conteúdo da página */
+                display: inline-block; /* mostra conteúdo em única linha */
+            }
+            .conteudo-menu-suspenso {
+                display: none;
+                position: absolute; /* conteúdo atual não acompanha o conteúdo da página */
+                background-color: rgb(102, 179, 194);
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,2);
+            }
+            .menu-suspenso:hover .conteudo-menu-suspenso { /* quando passar o mouse */
+                display: block; /* coloca para mostrar */
+            }
+            .conteudo-menu-suspenso a {
+                display: block; /* faz aparecer cada link em uma única linha */
+                padding: 6px;
+                text-decoration: none; /* link não ficar sublinhado */
+            }

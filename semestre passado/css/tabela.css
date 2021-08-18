@@ -1,0 +1,20 @@
+#conteudo {
+    width: 800px;
+    margin: 50px auto;
+}
+#tabela {
+    font-family: Arial, Helvetica, sans-serif; /* tipo da fonte */
+    width: 100%; /* ocupa 100% dos 800px */
+    border-collapse: collapse; /* retirar os espaçoes entre as bordas das células */
+}
+td, th {
+    border: 1px solid #ddd;
+    padding: 10px; /*espaçamento interno de cada célula */
+}
+th {
+    background-color: black; /* cobeçalho com fundo verde */
+    color: white;  /* cabeçalho com texto branco */
+}
+tr:hover { /* quando passar o mouse em cima da linha */
+    background-color: rgb(182, 182, 182);
+}
